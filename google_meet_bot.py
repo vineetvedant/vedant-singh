@@ -14,7 +14,7 @@ def join():
     
     auto.hotkey('ctrl','d')
     auto.hotkey('ctrl','e')
-    auto.click(1008,445)
+    auto.click(1008,445) ##enter your mouse over enter the meeting 
 
 schedule.every().day.at(time).do(join)
 
